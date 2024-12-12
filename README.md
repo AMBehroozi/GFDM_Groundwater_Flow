@@ -73,12 +73,3 @@ where:
 
 ## 6. Applications
 This GFDM implementation is designed for groundwater flow problems but can be extended to other domains requiring meshless numerical solutions for PDEs.
-
-## 7. Repository Structure
-- `src/`: Source code files
-- `examples/`: Example implementations
-- `tests/`: Validation tests
-- `docs/`: Documentation
-
-## 8. License
-This repository is licensed under the [MIT License](LICENSE).
