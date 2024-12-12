@@ -28,28 +28,19 @@ $\mathbf{M}\boldsymbol{\alpha} = \mathbf{b}$
 
 where:
 
-$\displaystyle \mathbf{M} = \begin{pmatrix} 
-\Delta x_1 & \Delta y_1 & \frac{1}{2}\Delta x_1^2 & \Delta x_1\Delta y_1 & \frac{1}{2}\Delta y_1^2 \\[2ex]
-\vdots & \vdots & \vdots & \vdots & \vdots \\[2ex]
+<div align="center">
+<table>
+<tr><td>
+
+$\mathbf{M} = \begin{pmatrix} 
+\Delta x_1 & \Delta y_1 & \frac{1}{2}\Delta x_1^2 & \Delta x_1\Delta y_1 & \frac{1}{2}\Delta y_1^2 \\
+\vdots & \vdots & \vdots & \vdots & \vdots \\
 \Delta x_n & \Delta y_n & \frac{1}{2}\Delta x_n^2 & \Delta x_n\Delta y_n & \frac{1}{2}\Delta y_n^2 
 \end{pmatrix}$
 
-$\displaystyle \boldsymbol{\alpha} = \begin{pmatrix} 
-\frac{\partial u}{\partial x} \\[2ex]
-\frac{\partial u}{\partial y} \\[2ex]
-\frac{\partial^2 u}{\partial x^2} \\[2ex]
-\frac{\partial^2 u}{\partial x\partial y} \\[2ex]
-\frac{\partial^2 u}{\partial y^2}
-\end{pmatrix}$
-
-$\boldsymbol{\alpha} = \begin{bmatrix}
-\frac{\partial u}{\partial x} \\
-\frac{\partial u}{\partial y} \\
-\frac{\partial^2 u}{\partial x^2} \\
-\frac{\partial^2 u}{\partial x\partial y} \\
-\frac{\partial^2 u}{\partial y^2}
-\end{bmatrix}$
-
+</td></tr>
+</table>
+</div>
 ## 3. GFDM Weights
 The weights $\gamma_{ij}$ are computed using:
 
