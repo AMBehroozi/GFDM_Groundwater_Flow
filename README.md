@@ -28,19 +28,17 @@ $\mathbf{M}\boldsymbol{\alpha} = \mathbf{b}$
 
 where:
 
-<div align="center">
-<table>
-<tr><td>
+M = | Δx₁    Δy₁    ½Δx₁²   Δx₁Δy₁   ½Δy₁² |
+    | ...    ...    ...     ...      ...   |
+    | Δxₙ    Δyₙ    ½Δxₙ²   ΔxₙΔyₙ   ½Δyₙ² |
 
-$\mathbf{M} = \begin{pmatrix} 
-\Delta x_1 & \Delta y_1 & \frac{1}{2}\Delta x_1^2 & \Delta x_1\Delta y_1 & \frac{1}{2}\Delta y_1^2 \\
-\vdots & \vdots & \vdots & \vdots & \vdots \\
-\Delta x_n & \Delta y_n & \frac{1}{2}\Delta x_n^2 & \Delta x_n\Delta y_n & \frac{1}{2}\Delta y_n^2 
-\end{pmatrix}$
+α = | ∂u/∂x           |
+    | ∂u/∂y           |
+    | ∂²u/∂x²         |
+    | ∂²u/∂x∂y        |
+    | ∂²u/∂y²         |
 
-</td></tr>
-</table>
-</div>
+    
 ## 3. GFDM Weights
 The weights $\gamma_{ij}$ are computed using:
 
