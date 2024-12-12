@@ -29,10 +29,18 @@ $\mathbf{M}\boldsymbol{\alpha} = \mathbf{b}$
 where:
 
 $\mathbf{M} = \begin{bmatrix}
-\Delta x_1 & \Delta y_1 & \frac{1}{2}\Delta x_1^2 & \Delta x_1\Delta y_1 & \frac{1}{2}\Delta y_1^2 \\
-\vdots & \vdots & \vdots & \vdots & \vdots \\
+\Delta x_1 & \Delta y_1 & \frac{1}{2}\Delta x_1^2 & \Delta x_1\Delta y_1 & \frac{1}{2}\Delta y_1^2 \
+\vdots & \vdots & \vdots & \vdots & \vdots \
 \Delta x_n & \Delta y_n & \frac{1}{2}\Delta x_n^2 & \Delta x_n\Delta y_n & \frac{1}{2}\Delta y_n^2
 \end{bmatrix}$
+$\boldsymbol{\alpha} = \begin{bmatrix}
+\frac{\partial u}{\partial x} \
+\frac{\partial u}{\partial y} \
+\frac{\partial^2 u}{\partial x^2} \
+\frac{\partial^2 u}{\partial x\partial y} \
+\frac{\partial^2 u}{\partial y^2}
+\end{bmatrix}$
+
 
 $\boldsymbol{\alpha} = \begin{bmatrix}
 \frac{\partial u}{\partial x} \\
