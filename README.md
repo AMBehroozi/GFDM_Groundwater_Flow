@@ -27,19 +27,43 @@ For a point $i$ with $n$ neighbors:
 $\mathbf{M}\boldsymbol{\alpha} = \mathbf{b}$
 
 where:
+For GitHub README.md, we need to use display style math and HTML table format for better matrix rendering:
 
-$\mathbf{M} = \begin{bmatrix}
-\Delta x_1 & \Delta y_1 & \frac{1}{2}\Delta x_1^2 & \Delta x_1\Delta y_1 & \frac{1}{2}\Delta y_1^2 \
-\vdots & \vdots & \vdots & \vdots & \vdots \
-\Delta x_n & \Delta y_n & \frac{1}{2}\Delta x_n^2 & \Delta x_n\Delta y_n & \frac{1}{2}\Delta y_n^2
-\end{bmatrix}$
-$\boldsymbol{\alpha} = \begin{bmatrix}
-\frac{\partial u}{\partial x} \
-\frac{\partial u}{\partial y} \
-\frac{\partial^2 u}{\partial x^2} \
-\frac{\partial^2 u}{\partial x\partial y} \
+```markdown
+$\displaystyle \mathbf{M} = \begin{pmatrix} 
+\Delta x_1 & \Delta y_1 & \frac{1}{2}\Delta x_1^2 & \Delta x_1\Delta y_1 & \frac{1}{2}\Delta y_1^2 \\[2ex]
+\vdots & \vdots & \vdots & \vdots & \vdots \\[2ex]
+\Delta x_n & \Delta y_n & \frac{1}{2}\Delta x_n^2 & \Delta x_n\Delta y_n & \frac{1}{2}\Delta y_n^2 
+\end{pmatrix}$
+
+$\displaystyle \boldsymbol{\alpha} = \begin{pmatrix} 
+\frac{\partial u}{\partial x} \\[2ex]
+\frac{\partial u}{\partial y} \\[2ex]
+\frac{\partial^2 u}{\partial x^2} \\[2ex]
+\frac{\partial^2 u}{\partial x\partial y} \\[2ex]
 \frac{\partial^2 u}{\partial y^2}
-\end{bmatrix}$
+\end{pmatrix}$
+```
+
+Alternatively, we could use HTML tables for guaranteed rendering:
+
+```markdown
+<div align="center">
+<table>
+<tr><td>
+
+$\mathbf{M} = \begin{pmatrix} 
+\Delta x_1 & \Delta y_1 & \frac{1}{2}\Delta x_1^2 & \Delta x_1\Delta y_1 & \frac{1}{2}\Delta y_1^2 \\
+\vdots & \vdots & \vdots & \vdots & \vdots \\
+\Delta x_n & \Delta y_n & \frac{1}{2}\Delta x_n^2 & \Delta x_n\Delta y_n & \frac{1}{2}\Delta y_n^2 
+\end{pmatrix}$
+
+</td></tr>
+</table>
+</div>
+```
+
+Would you like me to show more alternatives for matrix rendering in GitHub markdown?
 
 
 $\boldsymbol{\alpha} = \begin{bmatrix}
